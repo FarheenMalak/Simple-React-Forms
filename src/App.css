@@ -1,0 +1,110 @@
+/* App.css */
+
+/* Body styling */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #ecc3e7, #c9a7c4);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Heading styling */
+h1 {
+  color: #bd47ad;
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+  letter-spacing: 1.5px;
+}
+
+/* Input styling */
+input {
+  width: 90%;
+  max-width: 400px;
+  padding: 12px 15px;
+  font-size: 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  outline: none;
+  margin: 10px 0;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Input focus effect */
+input:focus {
+  border-color: #bd47ad;
+  background: #f9fafb;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styling */
+button {
+  width: 90%;
+  max-width: 400px;
+  padding: 12px;
+  margin-top: 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+  background: #bd47ad;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Button hover effect */
+button:hover {
+  background: #bd47ad;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Button active effect */
+button:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Paragraph styling */
+p {
+  margin-top: 15px;
+  font-size: 1.1rem;
+  color: #555;
+  font-style: italic;
+}
+
+/* Container styling */
+.container {
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  padding: 30px 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.8s ease-out;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
